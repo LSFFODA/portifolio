@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkgray;
+    
+}
+
+main {
+    display: grid;
+}
+
+header {
+    background-color: gray;
+    padding: 10px 0;
+    border-radius: 35px;
+    margin: 20px;
+}
+
+p {
+    color: black;
+    
+}
+
+h2 {
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.linha {
+    padding: 0.001rem;
+    margin: 10px;
+}
+
+.logo {
+    float: left;
+    width: 8rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sobre {
+    text-align: center;
+    border-radius: 1rem;
+    background-color: gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 50%;
+}
+
+nav {
+    float: right;
+    margin-top: 10px; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+a {
+        color: cornflowerblue;
+        margin: 5px;
+        padding: 4px;
+        background-color: black;
+        border-radius: 6px;
+        transition: color 0.3s ease-in-out;
+}
+
+#rob {
+    text-align: center;
+    border-radius: 35px;
+    background-color: gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 35rem;
+    margin-bottom: 40px;
+    img {
+        width: 400px;
+        margin-right: 5px;
+        transition: 0.3s ease-in-out;    
+        border-radius: 10%;
+    }
+    a {
+        color: black;
+        background-color: gray;
+    }
+    a:hover {
+        color: azure;
+    }
+}
+
+a:hover {
+    color: azure;
+}
+
+#eu {
+    text-align: center;
+    border-radius: 35px;
+    background-color: gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-bottom: 50px;
+}
+
+#calcula {
+    text-align: center;
+    border-radius: 35px;
+    background-color: gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 35rem;
+    img {
+        width: 499px;
+        transition: 0.3s ease-in-out;    
+        border-radius: 10%;
+    }
+    a {
+        color: black;
+        background-color: gray;
+    }
+    a:hover {
+        color: azure;
+    }
+}
+
+#calcula img:hover {
+    scale: 1.1;
+}
+
+#rob img:hover {
+    scale: 1.1;
+}
+
+#proj {
+    display: inline;
+}
+
+
+
+
+
